@@ -27,15 +27,11 @@ body {
 }
 
 .logo {
-  color: black;
+  color: black !important;
   font-size: 30px;
-  /* letter-spacing: 0.15em; */
   font-weight: initial;
-}
-
-a {
-  font-weight: bold;
-  /* padding: 6px; */
+  text-decoration: none !important;
+  text-transform: uppercase;
 }
 
 #head {
@@ -51,9 +47,6 @@ a {
   text-align: center;
 
   /* padding-left: 50px; */
-}
-.container {
-  margin-left: 80px !important;
 }
 
 .social_home li a {
@@ -80,7 +73,8 @@ a {
   margin: 0 auto;
 }
 
-.figure {
+.figure,
+.small {
   padding: 5px;
   margin-bottom: 2px;
 }
@@ -91,25 +85,36 @@ a {
   /* object-fit: cover; */
 }
 
-#smaller {
-  width: 300px;
-  height: 400px;
-  object-fit: contain;
-}
-
-#photo-aboutme {
-  text-align: center;
+#bigger {
+  width: 609px;
+  height: 450px;
+  
 }
 
 /* about.html */
 
+#picture {
+  text-align: center;
+  padding: 0;
+
+}
+.rounded {
+  border-radius: .25rem!important;
+}
+
+h2 {
+  margin-bottom: 30px;
+}
+
 .main-section {
-  padding-left: 5px;
+  max-width: 1140px;
+  margin-top: 20px;
+  padding: 5px;
   padding-right: 5px;
 }
 
-#photo-aboutme {
+/* #photo-aboutme {
   display: inline;
   float: left;
   margin-right: 1.5em;
-}
+} */

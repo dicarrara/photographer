@@ -1,8 +1,70 @@
+/* * {
+  box-sizing: border-box;
+} */
+
 body {
   font-family: "Open Sans", sans-serif;
-  margin: 10px 50px 20px 50px;
-  max-width: 100%;
+  margin: 10px 70px 20px 70px;
+  
 }
+
+.row {
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.forArt {
+  margin: 10px 80px 30px 80px !important;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+  
+}
+
+.art {
+  
+  -ms-flex: 33%; /* IE10 */
+  flex: 33%;
+  max-width: 33%;
+  padding: 0 4px;
+  
+}
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+
+
+}
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+/* navbar */
 
 .navbar-nav {
   text-align: center;
@@ -37,29 +99,16 @@ h1 {
   text-transform: uppercase;
 }
 
-.designer {
-  text-decoration: none !important;
-  color: #6c757d!important
-}
 
-.copy-rights  {
-  font-size: 14px;
-}
-
-#head {
-  text-align: center;
-  margin: 0 auto;
-}
 
 .container,
 .header,
 .main-section {
   margin: 0 auto;
-  max-width: 1340px;
   text-align: center;
-
-  /* padding-left: 50px; */
 }
+
+/* social */
 
 .social_home li a {
   font-size: 30px !important;
@@ -78,39 +127,13 @@ h1 {
 }
 
 
-.header {
-  margin: 0 auto;
-  text-align: center;
-  color: black;
-  margin: 0 auto;
-}
-
-.figure
- {
-  padding: 5px;
-  margin: 2px;
-}
-
-.img-fluid {
-  width: 250px;
-  height: 380px;
-  object-fit: cover;
-}
-
-#bigger {
-  width: auto;
-  height: 380px;
-  /* object-fit: cover; */
-  
-}
-
 /* about.html */
 
 #picture {
   text-align: center;
   padding: 0;
-
 }
+
 .rounded {
   border-radius: .25rem!important;
 }
@@ -120,10 +143,11 @@ h2 {
 }
 
 .main-section {
-  max-width: 1140px;
-  margin-top: 20px;
+  max-width: 960px;
+  margin: 20px auto;
   padding: 5px;
   padding-right: 5px;
+  
 }
 
 #about-me {
@@ -133,5 +157,10 @@ h2 {
 /* footer */
 .copy-rights {
   margin-top: 50px;
+  font-size: 14px;
 }
 
+.designer {
+  text-decoration: none !important;
+  color: #6c757d!important
+}

@@ -158,11 +158,15 @@ h4 {
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
-  .column,
-  .art {
+  .column {
     -ms-flex: 50%;
     flex: 50%;
     max-width: 50%;
+  }
+  .art {
+    -ms-flex: 80%;
+    flex: 80%;
+    max-width: 80%;
   }
 
 

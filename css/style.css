@@ -125,8 +125,17 @@ h2 {
   padding-right: 5px;
 }
 
-/* #photo-aboutme {
-  display: inline;
-  float: left;
-  margin-right: 1.5em;
-} */
+#about-me {
+  font-size: 20px;
+}
+
+/* footer */
+.copy-rights {
+  margin-top: 50px;
+}
+
+/* contact */
+
+.contact {
+  max-width: 650px;
+}

@@ -163,10 +163,11 @@ h4 {
     flex: 50%;
     max-width: 50%;
   }
+
   .art {
-    -ms-flex: 80%;
-    flex: 80%;
-    max-width: 80%;
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
   }
 
 

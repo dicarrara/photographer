@@ -42,28 +42,6 @@ body {
   width: 100%;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .column {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
-  }
-
-
-}
-
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
-  }
-}
-
-
 /* navbar */
 
 .navbar-nav {
@@ -154,6 +132,20 @@ h2 {
   font-size: 20px;
 }
 
+.awards {
+  margin-top: 50px;
+  
+}
+
+.work_item img {
+  max-width: 200px;
+  height: auto;
+}
+
+h4 {
+  font-size: 20px;
+}
+
 /* footer */
 .copy-rights {
   margin-top: 50px;
@@ -163,4 +155,25 @@ h2 {
 .designer {
   text-decoration: none !important;
   color: #6c757d!important
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+
+
+}
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
 }

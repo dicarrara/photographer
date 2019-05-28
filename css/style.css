@@ -85,10 +85,10 @@ h1 {
   margin: 0 auto;
 }
 
-.figure,
-.small {
+.figure
+ {
   padding: 5px;
-  margin-bottom: 2px;
+  margin: 2px;
 }
 
 .img-fluid {
@@ -135,8 +135,3 @@ h2 {
   margin-top: 50px;
 }
 
-/* contact */
-
-.contact {
-  max-width: 650px;
-}

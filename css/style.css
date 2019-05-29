@@ -232,6 +232,12 @@ h4 {
   .modal-content {
     width: 100%;
   }
+
+  .art {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */

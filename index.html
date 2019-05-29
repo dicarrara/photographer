@@ -86,48 +86,55 @@
 
     <div class="row"> 
       <div class="column">
-        <img src="./img/1.jpeg" style="width:100%">
-        <img src="./img/21.jpeg" style="width:100%">    
-        <img src="./img/6.jpeg" style="width:100%">
-        <img src="./img/12.jpeg" style="width:100%">
-        <img src="./img/26.jpeg" style="width:100%">
-        <img src="./img/13.jpeg" style="width:100%">
-        <img src="./img/28.jpeg" style="width:100%">
-        <img src="./img/8.jpeg" style="width:100%">
+        <img class="myImg" src="./img/1.jpeg" style="width:100%">
+        <img class="myImg" src="./img/21.jpeg" style="width:100%">    
+        <img class="myImg" src="./img/6.jpeg" style="width:100%">
+        <img class="myImg" src="./img/12.jpeg" style="width:100%">
+        <img class="myImg" src="./img/26.jpeg" style="width:100%">
+        <img class="myImg" src="./img/13.jpeg" style="width:100%">
+        <img class="myImg"src="./img/28.jpeg" style="width:100%">
+        <img class="myImg" src="./img/8.jpeg" style="width:100%">
         
       </div>
       <div class="column">
-        <img src="./img/2.jpeg" style="width:100%">
-        <img src="./img/24.jpeg" style="width:100%">
-        <img src="./img/23.jpeg" style="width:100%">
-        <img src="./img/19.jpeg" style="width:100%">
-        <img src="./img/10.jpeg" style="width:100%">
-        <img src="./img/29.jpeg" style="width:100%">
-        <img src="./img/11.jpeg" style="width:100%">      
+        <img class="myImg" src="./img/2.jpeg" style="width:100%">
+        <img class="myImg" src="./img/24.jpeg" style="width:100%">
+        <img class="myImg" src="./img/23.jpeg" style="width:100%">
+        <img class="myImg" src="./img/19.jpeg" style="width:100%">
+        <img class="myImg" src="./img/10.jpeg" style="width:100%">
+        <img class="myImg" src="./img/29.jpeg" style="width:100%">
+        <img class="myImg" src="./img/11.jpeg" style="width:100%">      
               
       </div>  
 
       <div class="column">
-        <img src="./img/3.jpeg" style="width:100%">
-        <img src="./img/16.jpeg" style="width:100%">
-        <img src="./img/18.jpeg" style="width:100%">
-        <img src="./img/7.jpeg" style="width:100%">
-        <img src="./img/20.jpeg" style="width:100%">
-        <img src="./img/27.jpeg" style="width:100%">
-        <img src="./img/9.jpeg" style="width:100%">
+        <img class="myImg" src="./img/3.jpeg" style="width:100%">
+        <img class="myImg" src="./img/16.jpeg" style="width:100%">
+        <img class="myImg" src="./img/18.jpeg" style="width:100%">
+        <img class="myImg" src="./img/7.jpeg" style="width:100%">
+        <img class="myImg" src="./img/20.jpeg" style="width:100%">
+        <img class="myImg" src="./img/27.jpeg" style="width:100%">
+        <img class="myImg" src="./img/9.jpeg" style="width:100%">
       </div>
 
       <div class="column">
-        <img src="./img/4.jpeg" style="width:100%">
-        <img src="./img/5.jpeg" style="width:100%">
-        <img src="./img/22.jpeg" style="width:100%">
-        <img src="./img/17.jpeg" style="width:100%">
-        <img src="./img/25.jpeg" style="width:100%">
-        <img src="./img/15.jpeg" style="width:100%">
-        <img src="./img/30.jpeg" style="width:100%">      
+        <img class="myImg" src="./img/4.jpeg" style="width:100%">
+        <img class="myImg" src="./img/5.jpeg" style="width:100%">
+        <img class="myImg" src="./img/22.jpeg" style="width:100%">
+        <img class="myImg" src="./img/17.jpeg" style="width:100%">
+        <img class="myImg" src="./img/25.jpeg" style="width:100%">
+        <img class="myImg" src="./img/15.jpeg" style="width:100%">
+        <img class="myImg" src="./img/30.jpeg" style="width:100%">      
      
       </div>
     </div>
+     <!-- Modal Popup *hidden by default* -->
+     <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>
+  <!-- End of Modal Popup -->
     <!-- footer -->
     <section class="bg-transparent">
         <div class="container">
@@ -165,14 +172,13 @@
       crossorigin="anonymous"
     ></script>
     <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script
+    type="text/javascript"
+    src="./javascript/app.js"
+  ></script>
   </body>
 </html>

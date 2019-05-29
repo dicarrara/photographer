@@ -22,12 +22,8 @@
       crossorigin="anonymous"
     />
 
-    <!-- <link rel="stylesheet" href="css/materialdesignicons.min.css" />
-    <link rel="stylesheet" href="css/mobiriseicons.css" />
-    <link rel="stylesheet" href="css/animate.min.css" /> -->
-
-    <!-- <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" /> -->
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    
   </head>
 
   <body>
@@ -94,32 +90,41 @@
 
     <div class="row forArt"> 
         <div class="column art" >
-          <img src="./img/art/1.jpeg" style="width:100%">  
-          <img src="./img/art/4.jpeg" style="width:100%">
-          <img src="./img/art/7.jpeg" style="width:100%">
-          <img src="./img/art/10.jpeg" style="width:100%">
-          <img src="./img/art/14.jpeg" style="width:100%">
+          <img class="myImg" src="./img/art/1.jpeg" style="width:100%">  
+          <img class="myImg" src="./img/art/4.jpeg" style="width:100%">
+          <img class="myImg" src="./img/art/7.jpeg" style="width:100%">
+          <img class="myImg" src="./img/art/10.jpeg" style="width:100%">
+          <img class="myImg" src="./img/art/14.jpeg" style="width:100%">
             
         </div>
-
+ 
         <div class="column art">
-            <img src="./img/art/2.jpeg" style="width:100%">
-            <img src="./img/art/5.jpeg" style="width:100%"> 
-            <img src="./img/art/8.jpeg" style="width:100%">
-            <img src="./img/art/13.jpeg" style="width:100%">
+            <img class="myImg" src="./img/art/2.jpeg" style="width:100%">
+            <img class="myImg" src="./img/art/5.jpeg" style="width:100%"> 
+            <img class="myImg" src="./img/art/8.jpeg" style="width:100%">
+            <img class="myImg" src="./img/art/13.jpeg" style="width:100%">
           
         </div>  
   
         <div class="column art">
-            <img src="./img/art/3.jpeg" style="width:100%">
-            <img src="./img/art/6.jpeg" style="width:100%">
-            <img src="./img/art/9.jpeg" style="width:100%">
-            <img src="./img/art/12.jpeg" style="width:100%">
-            <img src="./img/art/11.jpeg" style="width:100%">
+            <img class="myImg" src="./img/art/3.jpeg" style="width:100%">
+            <img class="myImg" src="./img/art/6.jpeg" style="width:100%">
+            <img class="myImg" src="./img/art/9.jpeg" style="width:100%">
+            <img class="myImg" src="./img/art/12.jpeg" style="width:100%">
+            <img class="myImg" src="./img/art/11.jpeg" style="width:100%">
           
         </div>
   
       </div>
+
+      <!-- Modal Popup *hidden by default* -->
+      <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+      </div>
+    <!-- End of Modal Popup -->
+    
       <!-- footer -->
       <section class="bg-transparent">
           <div class="container">
@@ -156,15 +161,15 @@
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
       crossorigin="anonymous"
     ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
+    
     <script
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./javascript/app.js"
     ></script>
   </body>
 </html>
